@@ -1,1 +1,1 @@
-# -MAI-Labs_second_term
+# MAI Laboratory works term 2
