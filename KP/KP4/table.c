@@ -59,7 +59,7 @@ void    table_sift_entry(Table *t, int idx, int max)
             swap_int(&t->keys.data[idx], &t->keys.data[idx_large]);
             swap_str(&t->data.data[idx], &t->data.data[idx_large]);
             idx = idx_large;
-        } else 
+        } else
             break;
     }
 }
