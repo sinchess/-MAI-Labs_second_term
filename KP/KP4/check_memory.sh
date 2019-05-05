@@ -1,1 +1,1 @@
-docker run -ti -v $PWD:/test memory-test:0.1 bash -c "cd /test/; make && valgrind --leak-check=full --show-leak-kinds=all ./main tests/test1 3 4 5"
+docker run -ti -v $PWD:/test memory-test:0.1 bash -c "cd /test/; make && valgrind --leak-check=full ./main tests/test1 3 4 5"
